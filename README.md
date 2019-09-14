@@ -3,19 +3,21 @@
 Classifies movie reviews into positive and negative. Classification is done using two different classification methods in python 3. Accuracy achieved: 75 - 80 %
 
 ### Data processing pipeline
-The data has been cleaned up somewhat, for example:
 
+The data has been cleaned up somewhat, for example:
 * The dataset is comprised of only English reviews.
 * All text has been converted to lowercase.
 * There is white space around punctuation like periods, commas, and brackets.
 * Text has been split into one snippet per line.
 
-To further proccess data:
-* Remove all the special characters
+#### To further proccess data:
+* Remove punctuation
+* Remove numbers. 
 * Remove all the single characters
-* remove all the stopwords (except for not)
-* get the stemwords
-* tokenize the words
+* Remove stopwords (except for not). Stop words are the most common words in a language like “the”, “a”, “on”, “is”, “all”. These words carry little importance to the sentiment analyces.
+* Lemmatization. The aim of lemmatization, like stemming, is to reduce inflectional forms to a common base form. As opposed to stemming, lemmatization does not simply chop off inflections. Instead it uses lexical knowledge bases to get the correct base forms of words.
+* Tokenization. 
+* Dealing with negations (like “not good”) is a critical step in Sentiment Analysis. A negation word can influence the tone of all the words around it, and ignoring negations is one of the main causes of misclassification.
 
 ### Movie Review Dataset
 
