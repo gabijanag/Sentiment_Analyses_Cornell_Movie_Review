@@ -11,13 +11,16 @@ The data has been cleaned up somewhat, for example:
 * Text has been split into one snippet per line.
 
 #### To further proccess data:
-* Remove punctuation
-* Remove numbers. 
-* Remove all the single characters
+
+* Firstly replace contractions to their equivalents.
+* Remove all the single characters.
+* Remove punctuation and numbers.
+* Replace multiple spaces with a single space.
+* Replace slang words and abbreviations with their equivalents.
 * Remove stopwords (except for not). Stop words are the most common words in a language like “the”, “a”, “on”, “is”, “all”. These words carry little importance to the sentiment analyces.
 * Lemmatization. The aim of lemmatization, like stemming, is to reduce inflectional forms to a common base form. As opposed to stemming, lemmatization does not simply chop off inflections. Instead it uses lexical knowledge bases to get the correct base forms of words.
 * Tokenization. 
-* Dealing with negations (like “not good”) is a critical step in Sentiment Analysis. A negation word can influence the tone of all the words around it, and ignoring negations is one of the main causes of misclassification.
+* Negation replacement. Dealing with negations (like “not good”) is a critical step in Sentiment Analysis. A negation word can influence the tone of all the words around it, and ignoring negations is one of the main causes of misclassification.
 
 ### Movie Review Dataset
 
