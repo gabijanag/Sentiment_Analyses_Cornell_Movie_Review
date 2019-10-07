@@ -9,6 +9,7 @@ The data has been cleaned up somewhat, for example:
 * All text has been converted to lowercase.
 * There is white space around punctuation like periods, commas, and brackets.
 * Text has been split into one snippet per line.
+* The dataset is balanced, comprised of 5331 positive and 5331 negative processed senteces. 
 
 #### To further proccess data:
 
@@ -28,5 +29,3 @@ The Movie Review data shows good/bad ("fresh"/"rotten") sentiment classification
 
 This data was first used in Bo Pang and Lillian Lee, "Seeing stars: Exploiting class relationships for sentiment categorization
 with respect to rating scales.", Proceedings of the ACL, 2005.
-
-The dataset is comprised of 5331 positive and 5331 negative processed senteces / snippets of movie reviews drawn from an archive of the rec.arts.movies.reviews newsgroup hosted at IMDB. 
