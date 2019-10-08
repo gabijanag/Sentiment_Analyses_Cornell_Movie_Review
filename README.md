@@ -1,6 +1,6 @@
 # Sentiment Analyses
 
-Classifies movie reviews into positive and negative. Classification is done using two different classification methods in python 3. Accuracy achieved: 75 - 80 %### Movie Review Dataset
+Classifies movie reviews into positive and negative. Classification is done using different classification methods in python 3.
 
 The Movie Review data shows good/bad ("fresh"/"rotten") sentiment classification based on a collection of short review excerpts from Rotten Tomatoes. It wsas collected by Bo Pang and Lillian Lee and released in 2005. The dataset is referred to as “sentence polarity dataset v1.0“.
 
