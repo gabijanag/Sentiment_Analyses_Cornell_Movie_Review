@@ -2,6 +2,8 @@
 
 Classifies movie reviews into positive and negative. Classification is done using different classification methods in python 3.
 
+### Dataset
+
 The Movie Review data shows good/bad ("fresh"/"rotten") sentiment classification based on a collection of short review excerpts from Rotten Tomatoes. It wsas collected by Bo Pang and Lillian Lee and released in 2005. The dataset is referred to as “sentence polarity dataset v1.0“.
 
 This data was first used in Bo Pang and Lillian Lee, "Seeing stars: Exploiting class relationships for sentiment categorization
@@ -9,7 +11,8 @@ with respect to rating scales.", Proceedings of the ACL, 2005.
 
 ### Data processing pipeline
 
-The data has been cleaned up somewhat, for example:
+#### The data has been cleaned up somewhat, for example:
+
 * The dataset is comprised of only English reviews.
 * All text has been converted to lowercase.
 * There is white space around punctuation like periods, commas, and brackets.
