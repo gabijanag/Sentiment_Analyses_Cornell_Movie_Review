@@ -2,9 +2,6 @@
 
 Classifies movie reviews into positive and negative. Classification is done using different classification algorithms in python 3.
 
-
-## Data processing pipeline
-
 ### Dataset
 
 The dataset is referred to as “sentence polarity dataset v1.0“. It was collected by Bo Pang and Lillian Lee and released in 2005. First used in Bo Pang and Lillian Lee, "Seeing stars: Exploiting class relationships for sentiment categorization with respect to rating scales.", Proceedings of the ACL, 2005. The Movie Review data shows good/bad ("fresh"/"rotten") sentiment classification based on a collection of short review excerpts from Rotten Tomatoes. 
@@ -17,7 +14,8 @@ The dataset is referred to as “sentence polarity dataset v1.0“. It was colle
 * There is white space around punctuation like periods, commas, and brackets.
 * Text has been split into one snippet per line.
 
-### To further proccess data:
+
+## Data processing pipeline:
 
 * Firstly replace contractions to their equivalents;
 * Then remove punctuation and numbers;
@@ -51,6 +49,7 @@ Logistic Regression is a classification model that is very easy to implement and
 The Naive Bayes (NB) classifier is widely used in machine learning for its appealing tradeoffs in terms of design effort and performance as well as its ability to deal with missing features or attributes. It is particularly popular for text classification. Multinomial Naive Bayes is in a sense more complex model, while BernoulliNB is particularly designed for binary/boolean features. Because of that, Bernoulli model can be trained using less data and be less prone to overfitting
 
 There are two major advantages of the NB classification when working with binary features. First, the naive assumption of feature independence reduces the number of probabilities that need to be calculated. This, in turn, reduces the requirement on the size of training set. Another advantage of NB classification is that it is still possible to perform classification even if one or more features are missing, in such situations the terms for missing features are simply omitted from calculations.
+
 
 
 ## Unbalanced dataset problems
