@@ -32,12 +32,23 @@ The dataset is referred to as “sentence polarity dataset v1.0“. It was colle
 
 ### Classification methods
 
-I will compare two machine learning approaches to see which is more likely to give an accurate analysis of sentiment. Both approaches analyse a corpora of positive and negative Movie Review data by training and thereafter testing to get an accuracy score. The techniques are Support Vector Machines (SVM) and Logistic Regression.
+Next some machine learning approaches are compared to see which is more likely to give an accurate analysis of sentiment. These approaches analyse a corpora of positive and negative Movie Review data by training and thereafter testing to get an accuracy score. 
 
 Generative classifiers like naive Bayes build a model of each class. Given an observation, they return the class most likely to have generated the observation. Discriminative classifiers like logistic regression instead learn what features from the input are most useful to discriminate between the different possible classes. While discriminative systems are often more accurate and hence more commonly used, generative classifiers still have a role. Other classifiers commonly used in language processing include support-vector machines (SVMs), random forests, perceptrons, and neural networks.
 
-I performed a set of experiments to recognize positive or negative sentiment, using single intelligent methods. It was observed that the better results were obtained by: Logistic regression and SVM.
+I performed a set of experiments to recognize positive or negative sentiment, using single intelligent methods. It was observed that the better results were obtained by: Logistic regression and SVM. 
 
+Both techniques serve as good primers for conducting sentiment analysis using machine learning techniques. The scikit-learn library simplifies the process into five major steps: training, vectorization, classification, prediction and testing.
+
+
+
+
+
+
+
+
+
+##### Logistic Regression
 Logistic Regression is a ‘Statistical Learning’ technique categorized in ‘Supervised’ Machine Learning (ML) methods dedicated to ‘Classification’ tasks. It has gained a tremendous reputation for last two decades especially in financial sector due to its prominent ability of detecting defaulters. A contradiction appears when we declare a classifier whose name contains the term ‘Regression’ is being used for classification, but this is why Logistic Regression is magical: using a linear regression equation to produce discrete binary outputs.
 
 Logistic Regression is a classification model that is very easy to implement and performs very well on linearly separable classes. It is one of the most widely used algorithms for classification in industry too, which makes it attractive to play with. Logistic regression can, however, be used for multiclass classification, but here we will focus on its simplest application. It is the go-to method for binary classification problems (problems with two class values). 
@@ -45,7 +56,15 @@ Logistic Regression is a classification model that is very easy to implement and
 
 
 
+##### Unbalanced dataset problems
 
+If the dataset was imbalanced
+
+In problems where it is desired to give more importance to certain classes or certain individual samples keywords class_weight and sample_weight can be used.
+
+SVC (but not NuSVC) implement a keyword class_weight in the fit method. It’s a dictionary of the form {class_label : value}, where value is a floating point number > 0 that sets the parameter C of class class_label to C * value.
+
+SVC, NuSVC, SVR, NuSVR and OneClassSVM implement also weights for individual samples in method fit through keyword sample_weight. Similar to class_weight, these set the parameter C for the i-th example to C * sample_weight[i].
 
 
 
