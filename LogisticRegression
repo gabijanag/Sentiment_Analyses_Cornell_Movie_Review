@@ -72,7 +72,7 @@ print(accuracy_score(y_test, y_pred))
 #
 # # predict the sentiment for the test set using our loaded model
 # y_pred2 = RF_model.predict(X_test)
-#
+
 # print(confusion_matrix(y_test, y_pred2))
 # print(classification_report(y_test, y_pred2))
 # print(accuracy_score(y_test, y_pred2))
