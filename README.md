@@ -1,4 +1,4 @@
-# Sentiment Analyses
+# Sentiment Analysis
 
 Classifies movie reviews into positive and negative. Classification is done using different classification algorithms in python 3.
 
@@ -23,7 +23,7 @@ The dataset is referred to as “sentence polarity dataset v1.0“. It was colle
 * Replace multiple spaces with a single space;
 * Replace slang words and abbreviations with their equivalents;
 * Negation replacement. Dealing with negations (like “not good”) is a critical step in Sentiment Analysis. A negation word can influence the tone of all the words around it, and ignoring negations is one of the main causes of misclassification;
-* Remove stopwords. Stop words are the most common words in a language like “the”, “a”, “on”, “is”, “all”. These words usually carry little importance to the sentiment analyses.
+* Remove stopwords. Stop words are the most common words in a language like “the”, “a”, “on”, “is”, “all”. These words usually carry little importance to the sentiment analysis.
 * Stemmimg. Reduce inflectional forms to a common base form. 
 * Tokenization.
 
