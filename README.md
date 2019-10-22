@@ -1,4 +1,4 @@
-# Sentiment Analysis
+# Cornell Movie Review Sentiment Analysis
 
 Classifies movie reviews into positive and negative. Classification is done using different classification algorithms in python 3.
 
